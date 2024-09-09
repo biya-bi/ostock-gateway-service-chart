@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: jcr.nguiland.org/docker-local/com.optimagrowth/gateway-service
+  repository: jcr.nguiland.org/docker-local/org.nguiland/gateway-service
   pullPolicy: Always
   tag: 0.0.1-SNAPSHOT
 imagePullSecrets: []
@@ -12,7 +12,7 @@ serviceAccount:
   annotations: {}
   name: ''
 podAnnotations:
-  appCommitId: 9c8161e479f53828b949aa2f6c81f2b649783170
+  appCommitId: dd2bbd4cd9ae6a77967af262cb83678003948026
 podLabels: {}
 podSecurityContext: {}
 securityContext: {}
